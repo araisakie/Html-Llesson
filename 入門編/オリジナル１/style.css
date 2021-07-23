@@ -1,0 +1,126 @@
+body,
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  opacity: 0.5;
+}
+img {
+  object-fit: cover;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.siteTop {
+  max-width: 940px;
+}
+header .top {
+  background: red;
+  color: #fff;
+  padding: 0 10px;
+  margin: 10px;
+  font-size: 24px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+.mv-img img {
+  width: 100%;
+  height: 500px;
+}
+.sec-main {
+  max-width: 900px;
+  margin: 80px auto;
+  text-align: center;
+}
+.sec-main h1 {
+  font-size: 35px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+  display: inline;
+}
+.sec-main h3 {
+  text-align: left;
+}
+.sec-main p {
+  text-align: justify;
+}
+.sec-main .about-flex,
+.sec-main .bicycle-flex {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 50px;
+}
+.sec-main .about-img img {
+  width: 115px;
+  height: 115px;
+  border-radius: 80px;
+  margin-right: 50px;
+}
+.sec-main .bicycle-img {
+  margin: 0 15px;
+}
+.sec-main .bicycle-img img {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 632px) {
+  header .top {
+    font-size: 20px;
+  }
+  .mv-img img {
+    height: auto;
+  }
+  .sec-main {
+    margin: 40px auto;
+  }
+  .sec-main h1 {
+    font-size: 30px;
+  }
+  .sec-main .about-flex,
+  .sec-main .bicycle-flex {
+    margin: 40px 0 50px;
+    display: block;
+  }
+  .sec-main .about-img img {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 0;
+  }
+  .sec-main .about-txt {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .sec-main .bicycle-img {
+    margin: 60px 15px;
+  }
+  .sec-main h3 {
+    text-align: center;
+  }
+  .sec-main p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+  }
+}
